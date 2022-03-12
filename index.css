@@ -35,7 +35,64 @@ body{
     background-image: url(/assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 350px;
     background-position: center;
+    margin-top: 5%;
+
+}
+.service{
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+.sec4{
+padding-top: 5%;
+}
+.sec4 h2{
+    text-align: center;
+}
+.row{
+    display: flex;
+    padding: 5%;
+  
+}
+.portfolio{
+    text-align: center;
+}
+.row2{
+    margin-top: 3%;
+  
+}
+.footer{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    margin-top: 5%; 
+}
+.contact{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.form input{
+    background-color: transparent;
+    border: 0.1rem solid rgb(214, 212, 212);
    
+   
+}
+::placeholder{
+    color: white;
+}
+.mess{
+    padding-top: 2%;
+}
+.mess input{
+    height: 10rem;
+    width: 35rem;
+}
+.icons{
+    padding-top: 3%;
+    text-align: center;
 }
