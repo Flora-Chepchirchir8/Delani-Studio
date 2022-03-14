@@ -1,14 +1,15 @@
-# Akan-Names
+# Delani-studio
 
 ## Author
 
 [Flora-Chepchirchir](https://github.com/Flora-Chepchirchir8)
 
 ## Description
-This is a website application project for Delani studio. It is user friendly, as it tries to explain to it's clients the services they offer.It is linked to a mailchimp that enables customers to send their their names and emails in the form and get a message after submission.
+This is a Delani-studio web application project that explains to it's customers the services they offer. upon clicking on the what we do section the customers get the description on what Delani studio does.Customers gets a message after submitting their names,email and a text in the form. 
 
 
 ## Live Page 
+
 
 
 ## Installation / Setup instruction
@@ -29,13 +30,13 @@ This is a website application project for Delani studio. It is user friendly, as
 * [JavaScript](https://github.com/topics/javascript)
 * markdown
 * [Bootstrap](https://github.com/topics/bootstrap)
+* [jquery](https://github.com/topics/jquery)
 
 ## BDD
-Enter your name
-Enter your email address
-Type your message
-click on the submit button
-
+* Enter your name
+* Enter your email address
+* Type your message
+* Click on the submit button
 
 ## Known Bugs
 * Some output are not as accurate as expected..
