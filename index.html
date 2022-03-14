@@ -86,55 +86,111 @@
    
 
     <div class="col-sm-4 text-center">
+       <div class="dev">
         <div class="dev-image">
             <img src="/assets/services_icons/dev_icon.png" alt="">
         </div>
-        <h3 class="design"> DEVELOPMENT</h3>
+        <h3 class="design" style="font-size: 1.3rem;"> DEVELOPMENT</h3>
         
         <p class="dev-para">
             All engineers are flent in the latest enterprise, mobile and web development technologies. <br> <br> They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.   
         </p> 
+    </div>
          </div>
+
        <div class="col-sm-4 text-center">
+           <div class="product">
             <div class="pro-image">
                 <img src="/assets/services_icons/product_icon.png" alt="">
             </div>
-                <h3 class="design">PRODUCT MANAGEMENT</h3>
+                <h3 class="design" style="font-size: 1.3rem;">PRODUCT MANAGEMENT</h3>
             
             <p class="product-para">
            Planning and development is iterative.Because we are constanly coding and testing the products  we build are always ready to go live <br> <br> This iterative process allows  for changes as business requirements evolve.     
             </p>
+        </div>
              </div>
+
 
             </div>          
 </div>
+<!-- portfolio -->
+
 <div class="portfolio">
     <h2 style="font-size: 1.5rem;">PORTFOLIO</h2>
-    <div class="row1">
-        <img src="/assets/portfolio/work4.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work3.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work2.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work1.jpg" alt="" height="200rem">
+
+<div class="container text-center">
+
+<div class="row">
+    <div class="col-sm-3 delim">
+        <img src="./assets/portfolio/work4.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: white;">BLACK PAGE</div>
+        </div>
     </div>
-    <div class="row2">
-        <img src="/assets/portfolio/work5.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work6.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work7.jpg" alt="" height="200rem">
-        <img src="/assets/portfolio/work8.jpg" alt="" height="200rem">
+    <div class="col-sm-3 delim">
+        <img src="./assets/portfolio/work3.jpg" alt="">
+            <div class="displayin" style="color: rgb(7, 7, 7);">MIGHTY ONTARIO</div>
+    </div>
+    <div class="col-sm-3 delim">
+        <img src="./assets/portfolio/work2.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: rgb(5, 5, 5);">ORANGE APP</div>
+        </div>
+
+    </div>
+    <div class="col-sm-3 delim">
+        <img src="./assets/portfolio/work1.jpg" alt="">
+
+            <div class="displayin" style="color: white;">JPM CARREY APP</div>
+   
+
     </div>
 
+
+    <div class="col-sm-3 mt-5 delim">
+        <img src="./assets/portfolio/work5.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: white;">ELEXA APP</div>
+        </div>
+    </div>
+    <div class="col-sm-3 mt-5 delim">
+        <img src="./assets/portfolio/work6.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: rgb(2, 2, 2);">CALCULATOR</div>
+        </div>
+    </div>
+    <div class="col-sm-3 mt-5 delim">
+        <img src="./assets/portfolio/work7.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: white;">BURNED LOGO</div>
+        </div>
+
+    </div>
+    <div class="col-sm-3 mt-5 delim">
+        <img src="./assets/portfolio/work8.jpg" alt="">
+        <div class="inside">
+            <div class="displayin" style="color: white;">BAILEY <br> WONGER</div>
+        </div>
+
+    </div>
+</div>
+</div>
 </div>
 <!-- footer -->
 <div class="footer">
     <div class="contact">
     <h2 style="font-size: 1.5rem;" >CONTACT US</h2>
-    <div class="form">
-        <input type="text" name="name" id="" placeholder="Name...">
-        <input type="email" name="email" id="" placeholder="Email..."><br>
+    <form>
+      
+        <input type="text" name="name" id="NAME" placeholder="Name..." required>
+        <input type="email" name="email" id="EMAIL" placeholder="Email..." required><br>
+   
         <div class="mess">
-        <input type="text" name="message" id="" placeholder="Your message here...">
+        <textarea type="text" name="message" id="NAME" placeholder="Your message here..." required></textarea>
     </div>
-    </div>
+</form>
+    <button type="submit" class="btn" id="btn" onclick="validateEmail()">Submit</button>
 </div>
 </div>
 <!-- icons -->
@@ -164,7 +220,8 @@
 
 
 
-
-    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>   
 </body>
 </html>
