@@ -10,7 +10,7 @@ This is a Delani-studio web application project that explains to it's customers 
 
 ## Live Page 
 
-
+https://flora-chepchirchir8.github.io/Delani-Studio/
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
