@@ -5,7 +5,7 @@
 [Flora-Chepchirchir](https://github.com/Flora-Chepchirchir8)
 
 ## Description
-This is a Delani-studio web application project that explains to it's customers the services they offer. upon clicking on the what we do section the customers get the description on what Delani studio does.Customers gets a message after submitting their names,email and a text in the form. 
+This is a Delani-studio web application project that explains to it's customers the services they offer. upon clicking on the what we do section the customers get the description on what Delani studio does.Customers gets a message after submitting their names,email and a message in the form. 
 
 
 ## Live Page 
